@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-# Levantar servidor: uvicorn main:app --reload
+# Levantar servidor: uvicorn app:app --reload
 app = FastAPI()
 
 @app.get("/")
